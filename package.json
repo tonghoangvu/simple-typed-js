@@ -4,7 +4,7 @@
 	"description": "A simple library to support Typed JavaScript",
 	"main": "src/index.js",
 	"scripts": {
-		"lint": "prettier --check . && eslint .",
+		"lint": "prettier --check --no-editorconfig . && eslint .",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prepare": "husky install"
 	},
