@@ -5,16 +5,18 @@
 	"private": false,
 	"license": "MIT",
 	"type": "commonjs",
-	"main": "src/index.js",
+	"main": "dist/index.js",
 	"files": [
-		"src/"
+		"dist/"
 	],
 	"scripts": {
+		"build": "cp-cli src/ dist/",
 		"lint": "prettier --check --no-editorconfig . && eslint .",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prepare": "husky install"
 	},
 	"devDependencies": {
+		"cp-cli": "^2.0.0",
 		"eslint": "^8.40.0",
 		"eslint-config-prettier": "^8.8.0",
 		"husky": "^8.0.3",
