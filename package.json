@@ -2,27 +2,44 @@
 	"name": "simple-typed-js",
 	"version": "0.1.0",
 	"description": "A simple library to support Typed JavaScript",
+	"private": false,
+	"license": "MIT",
+	"type": "commonjs",
 	"main": "src/index.js",
+	"files": [
+		"src/"
+	],
 	"scripts": {
 		"lint": "prettier --check --no-editorconfig . && eslint .",
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"prepare": "husky install"
 	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/pocketo-app/simple-typed-js.git"
-	},
-	"author": "Vu Tong <tonghoangvu@outlook.com> (https://github.com/tonghoangvu)",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/pocketo-app/simple-typed-js/issues"
-	},
-	"homepage": "https://github.com/pocketo-app/simple-typed-js#readme",
 	"devDependencies": {
 		"eslint": "^8.40.0",
 		"eslint-config-prettier": "^8.8.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.2",
 		"prettier": "^2.8.8"
-	}
+	},
+	"author": {
+		"name": "Vu Tong",
+		"email": "tonghoangvu@outlook.com",
+		"url": "https://github.com/tonghoangvu"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pocketo-app/simple-typed-js.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pocketo-app/simple-typed-js/issues"
+	},
+	"homepage": "https://github.com/pocketo-app/simple-typed-js#readme",
+	"keywords": [
+		"type",
+		"types",
+		"typed",
+		"javascript",
+		"typescript",
+		"language"
+	]
 }
