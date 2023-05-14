@@ -4,7 +4,16 @@
 		"declaration": true,
 		"declarationMap": true,
 		"emitDeclarationOnly": true,
-		"outDir": "dist/"
+		"outDir": "dist/",
+		"checkJs": true,
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"noFallthroughCasesInSwitch": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"exactOptionalPropertyTypes": true,
+		"forceConsistentCasingInFileNames": true
 	},
 	"include": ["src/**/*.js"]
 }
